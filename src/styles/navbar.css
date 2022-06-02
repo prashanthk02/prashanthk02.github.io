@@ -1,0 +1,13 @@
+.sName {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .fName {
+    display: none;
+  }
+
+  .sName {
+    display: block;
+  }
+}
