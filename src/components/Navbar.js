@@ -5,7 +5,7 @@ import '../styles/navbar.css'
 
 const Navbar = () => {
   return (
-    <div>
+    <div className="navbar">
       <Box padding={3}>
         <Typography variant="h4" component="h1" className="fName">
           Prashanth Kommidi
