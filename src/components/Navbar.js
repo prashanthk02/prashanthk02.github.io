@@ -1,4 +1,3 @@
-import { Typography } from "@mui/material";
 import { Box } from "@mui/system";
 
 import '../styles/navbar.css'
@@ -7,12 +6,12 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <Box padding={3}>
-        <Typography variant="h4" component="h1" className="fName">
+        <h1 className="fName neonText">
           Prashanth Kommidi
-        </Typography>
-        <Typography variant="h4" component="h1" className="sName">
+        </h1>
+        <h1 className="sName neonText">
           Prashanth
-        </Typography>
+        </h1>
       </Box>
     </div>
   )
