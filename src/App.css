@@ -1,11 +1,12 @@
 .App {
   background-image: url('../public/2k_stars_milky_way.jpeg');
-  position: fixed;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   background-position: 60%;
   background-color: black;
   background-size: cover;
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   color: white;
   border: 1px solid white;
 }
