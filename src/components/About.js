@@ -4,6 +4,7 @@ const About = () => {
   return (
     <div className='about'>
       <h3>About me</h3>
+      <img src='' alt='prashanth'/>
     </div>
   )
 }
