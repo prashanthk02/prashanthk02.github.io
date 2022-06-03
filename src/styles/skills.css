@@ -3,6 +3,13 @@
   border: 1px solid white;
 }
 
+.skills--icons {
+  padding: 10px;
+}
+
+.skills--svg {
+  font-size: 48px;padding: 10px;
+}
 /* Neon Text */
 .neon {
   padding: 12px;
