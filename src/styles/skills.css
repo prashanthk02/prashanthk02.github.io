@@ -1,14 +1,23 @@
 .skills {
   padding: 10px;
-  border: 1px solid white;
 }
 
 .skills--icons {
   padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  margin: 30px 50px 30px 50px;
+}
+
+.skills--each--icon {
+  text-align: center;
+  padding: 20px;
 }
 
 .skills--svg {
-  font-size: 48px;padding: 10px;
+  font-size: 80px;
+  padding: 10px;
+  fill: yellowgreen;
 }
 /* Neon Text */
 .neon {
@@ -19,4 +28,20 @@
       0 0 21px #fff,
       0 0 42px #0580d1,
       0 0 54px #0580d1;
+}
+
+@media only screen and (max-width: 600px) {
+  .skills--icons {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 0px;
+  }
+
+  .skills--each--icon {
+    text-align: center;
+    padding: 8px 2px;
+  }
+  
+  .skills--svg {
+    font-size: 50px;
+  }
 }
