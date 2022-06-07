@@ -116,13 +116,13 @@ const Skills = () => {
         </div>
 
         <div className="skills--each--icon">  
-          <SiJest className="skills--svg" />
-          <p>Jest</p>
+          <SiCypress className="skills--svg" />
+          <p>Cypress</p>
         </div>
 
         <div className="skills--each--icon">  
-          <SiCypress className="skills--svg" />
-          <p>Cypress</p>
+          <SiJest className="skills--svg" />
+          <p>Jest</p>
         </div>
 
         <div className="skills--each--icon">  
