@@ -35,3 +35,13 @@
       0 0 42px #0580d1,
       0 0 54px #0580d1;
 }
+
+@media only screen and (max-width:600px) {
+  .contact--details {
+    padding: 10px;
+  }
+
+  .contact--email > p {
+    margin-right: 5px;
+  }
+}

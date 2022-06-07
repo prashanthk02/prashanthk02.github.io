@@ -20,9 +20,9 @@
   color: white;
 }
 
-.projects--title > h3 {
+/* .projects--title > h3 {
   font-family: 'Comfortaa', cursive;
-}
+} */
 
 .svg {
   font-size: 30px;
@@ -30,7 +30,6 @@
 }
 
 .projects--demo > p {
-  font-family: 'Comfortaa', cursive;
   text-align: justify;
   text-justify: inter-word;
 }
