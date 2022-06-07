@@ -30,11 +30,24 @@
   color: white;
 }
 
-.projects--container > p {
+.projects--demo > p {
   font-family: 'Comfortaa', cursive;
-  margin: 10px 80px;
   text-align: justify;
   text-justify: inter-word;
+}
+
+.projects--demo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 100px;
+}
+
+.projects--demo > iframe {
+  height: 600px;
+  width: 900px;
+  margin: 20px;
+  border: none;
 }
 
 /* Neon Text */
@@ -49,13 +62,19 @@
 }
 
 @media only screen and (max-width:600px) {
-  .projects--container > p {
-    margin: 10px 15px;
-  }
-
   .projects--title {
     margin: 15px 5px;
     padding: 0px 10px;
     font-size: 10pt;
+  }
+
+  .projects--demo {
+    padding: 0px 10px;
+  }
+  
+  .projects--demo > iframe {
+    height: 240px;
+    width: 360px;
+    margin: 5px;
   }
 }
