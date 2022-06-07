@@ -3,6 +3,40 @@
   border: 1px solid white;
 }
 
+.projects--title {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 20px 40px;
+  padding: 0px 10px;
+  gap: 20px;
+}
+
+.projects--title > button {
+  font-size: 26px;
+  font-weight: 600;
+  background: none;
+  border: none;
+  color: white;
+}
+
+.projects--title > h3 {
+  font-family: 'Comfortaa', cursive;
+}
+
+.svg {
+  font-size: 30px;
+  color: white;
+}
+
+.projects--container > p {
+  font-family: 'Comfortaa', cursive;
+  margin: 10px 80px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
 /* Neon Text */
 .neon {
   padding: 12px;
@@ -12,4 +46,16 @@
       0 0 21px #fff,
       0 0 42px #0580d1,
       0 0 54px #0580d1;
+}
+
+@media only screen and (max-width:600px) {
+  .projects--container > p {
+    margin: 10px 15px;
+  }
+
+  .projects--title {
+    margin: 15px 5px;
+    padding: 0px 10px;
+    font-size: 10pt;
+  }
 }
