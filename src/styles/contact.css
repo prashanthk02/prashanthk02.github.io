@@ -1,6 +1,28 @@
 .contact {
   padding: 10px;
-  border: 1px solid white;
+}
+.contact--details {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.contact--email {
+  display: flex;
+  align-items: center;
+  font-size: 14pt;
+  color: #fff;
+}
+
+.contact--svg {
+  margin: 10px;
+  font-size: 24pt;
+  color: yellowgreen;
+}
+
+.contact--email > p {
+  color: #fff;
+  margin-right: 30px;
 }
 
 /* Neon Text */
