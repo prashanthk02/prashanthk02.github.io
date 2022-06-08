@@ -17,7 +17,7 @@
   font-weight: 600;
   background: none;
   border: none;
-  color: white;
+  color: inherit;
   margin-top: 4px;
 }
 
@@ -31,8 +31,7 @@
 }
 
 .projects--demo > p {
-  text-align: justify;
-  text-justify: inter-word;
+  text-align: left;
 }
 
 .projects--demo {
