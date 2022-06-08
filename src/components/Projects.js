@@ -53,7 +53,7 @@ const Projects = () => {
       <div className='projects--container'>
         <div className='projects--title'>
           <button onClick={() => toggle(2)}>{show === 2 ? <IoIosArrowDropdownCircle /> : <IoIosArrowDroprightCircle /> }</button>
-          <h3 onClick={() => toggle(2)}>Food order pickup</h3>
+          <h3 onClick={() => toggle(2)}>Food ordering</h3>
           <Link
             href='https://github.com/prashanthk02/Food-Order-pickup'
             target="_blank"
