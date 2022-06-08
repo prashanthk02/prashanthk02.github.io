@@ -8,10 +8,6 @@ const Contact = () => {
     <div className='contact'>
       <h2 className='neon'>Contact</h2>
       <div className='contact--details'>
-        <Link className='contact--email' href='mailto:pkommidi@outlook.com'>
-          <FiMail className='contact--svg'/>
-          <p>pkommidi@outlook.com</p>
-        </Link>
 
         <Link
         className='contact--email'
@@ -21,6 +17,12 @@ const Contact = () => {
         >
           <FaLinkedin className='contact--svg'/>
         </Link>
+
+        <Link className='contact--email' href='mailto:pkommidi@outlook.com'>
+          <FiMail className='contact--svg'/>
+          <p>pkommidi@outlook.com</p>
+        </Link>
+        
       </div>
     </div>
   )
