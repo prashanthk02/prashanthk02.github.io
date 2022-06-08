@@ -1,6 +1,9 @@
 .experience {
   padding: 10px;
-  border: 1px solid white;
+}
+
+.year {
+  opacity: 30%;
 }
 
 /* Neon Text */
