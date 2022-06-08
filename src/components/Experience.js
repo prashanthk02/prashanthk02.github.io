@@ -19,7 +19,7 @@ const Experience = () => {
           <TimelineConnector />
         </TimelineSeparator>
         <TimelineContent>
-          <div>Bachelor degree in Commerce.</div>
+          <div>Bachelor degree in Commerce</div>
           <div className='year'>2013 - 2016</div>
         </TimelineContent>
       </TimelineItem>
@@ -30,7 +30,7 @@ const Experience = () => {
           <TimelineConnector />
         </TimelineSeparator>
         <TimelineContent>
-          <div>Postgraduate diploma in Supply chain management.</div>
+          <div>Postgraduate diploma in Supply chain management</div>
           <div className='year'>2017 - 2018</div>
         </TimelineContent>
       </TimelineItem>
