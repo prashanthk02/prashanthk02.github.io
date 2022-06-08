@@ -14,6 +14,7 @@ const Contact = () => {
         </Link>
 
         <Link
+        className='contact--email'
         href='https://www.linkedin.com/in/pkommidi/'
         target="_blank"
         rel="noopener"
