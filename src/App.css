@@ -16,7 +16,25 @@
   z-index: 9;
   width: 100%;
   height: 75px;
-  background-color: black;
+  background-color: grey;
+}
+
+.mode {
+  position: relative;
+  left: 90%;
+  z-index: 10;
+  padding: 24px;
+  color: yellowgreen;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.light {
+  background-image: none;
+  background-color: white;
+  color: black;
 }
 
 @media only screen and (max-width: 600px) {
@@ -25,6 +43,11 @@
   }
 
   .navbar {
-    position: relative;
+   position: relative;
+  }
+
+  .mode {
+    left: 85%;
+    bottom: 100%;
   }
 }
