@@ -10,7 +10,7 @@ const Navbar = () => {
           Prashanth Kommidi
         </h1>
         <h1 className="sName neonText">
-          Prashanth
+          PRASHANTH
         </h1>
       </Box>
     </div>

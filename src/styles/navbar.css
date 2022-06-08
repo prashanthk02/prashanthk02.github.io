@@ -21,7 +21,7 @@
 }
 
 /* Flickering animation */
-.neonText {
+/* .neonText {
   animation: flicker 1.5s infinite alternate;
   color: #fff;
 }
@@ -44,4 +44,4 @@
   20%, 24%, 55% {        
       text-shadow: none;
   }    
-}
+} */

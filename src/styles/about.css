@@ -32,6 +32,10 @@
 }
 
 @media only screen and (max-width: 600px) {
+  .about {
+    margin-top: 0px;
+  }
+
   .about--desc {
     margin: 10px;
     flex-direction: column;

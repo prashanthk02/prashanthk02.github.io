@@ -76,3 +76,10 @@
     margin: 5px;
   }
 }
+
+@media only screen and (min-width:601px) and (max-width:900px) {
+  .projects--demo > iframe {
+    height: 300px;
+    width: 600px;
+  }
+}
