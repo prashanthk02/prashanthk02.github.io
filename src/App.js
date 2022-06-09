@@ -26,7 +26,7 @@ function App() {
         </button>
         <Navbar />
       </nav>
-      <About />
+      <About mode={mode} />
       <Skills />
       <Projects />
       <Experience />

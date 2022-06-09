@@ -1,7 +1,9 @@
 import { Link } from '@mui/material';
 import { useState } from 'react';
 import { FaGithub } from 'react-icons/fa';
-import { IoIosArrowDropdownCircle, IoIosArrowDroprightCircle } from 'react-icons/io'
+import { IoIosArrowDropdownCircle, IoIosArrowDroprightCircle } from 'react-icons/io';
+import food from "../docs/food.mp4";
+import what from "../docs/whatssup.mp4";
 import '../styles/projects.css'
 
 const Projects = () => {
@@ -39,12 +41,12 @@ const Projects = () => {
             can plan daily meals by calorie intake.
           </p>
           <br />
-          <iframe
-          title='demo'
-          
-          src="https://www.youtube.com/embed/2mYcrqmxeUI?autoplay=1&mute=1&showinfo=0&loop=1"
-          >
-          </iframe>
+
+          <video playsInline muted autoPlay loop controls controlsList="nodownload">
+            <source src={what} type="video/mp4" />
+            Your browser does not support the video.
+          </video>
+
         </div>
         }
 
@@ -72,12 +74,12 @@ const Projects = () => {
             Project was built as a Midterm-Project as student at Lighthouse labs
           </p>
           <br />
-          <iframe
-          title='demo'
-          
-          src="https://www.youtube.com/embed/muibz8lYgDk?autoplay=1&mute=1&showinfo=0&loop=1"
-          >
-          </iframe>
+
+          <video playsInline muted autoPlay loop controls controlsList="nodownload">
+            <source src={food} type="video/mp4" />
+            Your browser does not support the video.
+          </video>
+
         </div>
         }
       </div>

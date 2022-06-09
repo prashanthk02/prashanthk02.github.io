@@ -1,7 +1,7 @@
 import "../styles/about.css";
 import p from "../docs/p.jpg";
 
-const About = () => {
+const About = ({mode}) => {
   return (
     <div className="about">
       <div className="about--intro">
@@ -15,7 +15,7 @@ const About = () => {
           <h2 className="about--f">Full stack</h2>
           <h2 className="about--w">Web developer 👨🏻‍💻</h2>
         </div>
-        <img className="about--img" src={p} alt="prashanth" />
+        <img className={mode === "light" ? "about--img--light" : "about--img--dark"} src={p} alt="prashanth" />
       </div>
       <h2>About me</h2>
       <div className="about--desc">

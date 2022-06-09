@@ -11,11 +11,18 @@
   margin: 40px;
 }
 
-.about--img {
+.about--img--dark {
   width: 300px;
   height: 300px;
   border-radius: 10px;
   box-shadow: 2px 2px 4px 4px white;
+}
+
+.about--img--light {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px 4px gray;
 }
 
 .about--intro {
@@ -71,7 +78,12 @@
     gap: 20px;
   }
 
-  .about--img {
+  .about--img--dark {
+    width: 200px;
+    height: 200px;
+  }
+
+  .about--img--light {
     width: 200px;
     height: 200px;
   }

@@ -41,7 +41,7 @@
   padding: 0px 100px;
 }
 
-.projects--demo > iframe {
+.projects--demo > video {
   height: 600px;
   width: 900px;
   margin: 20px;
@@ -59,7 +59,7 @@
     padding: 0px 10px;
   }
   
-  .projects--demo > iframe {
+  .projects--demo > video {
     height: 240px;
     width: 360px;
     margin: 5px;
@@ -67,7 +67,7 @@
 }
 
 @media only screen and (min-width:601px) and (max-width:900px) {
-  .projects--demo > iframe {
+  .projects--demo > video {
     height: 300px;
     width: 600px;
   }
