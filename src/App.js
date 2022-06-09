@@ -24,7 +24,7 @@ function App() {
         <button className="mode" onClick={() => toggleMode()}>
           {mode === "light" ? <MdDarkMode /> : <MdLightMode />}
         </button>
-        <Navbar mode={mode} />
+        <Navbar />
       </nav>
       <About />
       <Skills />
