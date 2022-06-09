@@ -8,7 +8,7 @@
 }
 
 .about--desc {
-  margin: 20px;
+  margin: 40px;
 }
 
 .about--img {
@@ -16,10 +16,6 @@
   height: 300px;
   border-radius: 10px;
   box-shadow: 2px 2px 4px 4px white;
-}
-
-.about--p {
-  margin: 20px;
 }
 
 .about--intro {
