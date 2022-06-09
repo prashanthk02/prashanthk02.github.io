@@ -6,7 +6,7 @@ import { Link } from '@mui/material';
 const Contact = ({mode}) => {
   return (
     <div className='contact'>
-      <h2 className='neon'>Contact</h2>
+      <h2>Contact</h2>
       <div className='contact--details'>
 
         <Link

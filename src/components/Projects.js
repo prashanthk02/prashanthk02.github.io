@@ -16,7 +16,7 @@ const Projects = () => {
 
   return (
     <div className='projects'>
-      <h2 className='neon'>Projects</h2>
+      <h2>Projects</h2>
 
       <div className='projects--container'>
         <div className='projects--title'>

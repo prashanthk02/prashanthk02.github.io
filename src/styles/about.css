@@ -3,6 +3,10 @@
   margin-top: 74px;
 }
 
+.about > h2 {
+  padding: 12px;
+}
+
 .about--desc {
   margin: 20px;
   display: flex;
@@ -13,22 +17,10 @@
   height: 300px;
   border-radius: 10px;
   box-shadow: 2px 2px 4px 4px white;
-  /* box-shadow: 0 0 12px white; */
 }
 
 .about--p {
   margin: 20px;
-}
-
-/* Neon Text */
-.neon {
-  padding: 12px;
-  font-family: 'Comfortaa', cursive;
-  text-shadow:
-      0 0 10px #fff,
-      0 0 21px #fff,
-      0 0 42px #0580d1,
-      0 0 54px #0580d1;
 }
 
 @media only screen and (max-width: 600px) {

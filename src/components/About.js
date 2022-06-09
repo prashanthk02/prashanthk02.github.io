@@ -4,7 +4,7 @@ import p from "../docs/p.jpg";
 const About = () => {
   return (
     <div className="about">
-      <h2 className="neon">About me</h2>
+      <h2>About me</h2>
       <div className="about--desc">
         <img className="about--img" src={p} alt="prashanth" />
         <p className="about--p">Lorem Ipsum is simply dummy text of the printing and typesetting industry.

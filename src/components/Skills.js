@@ -27,7 +27,7 @@ import { DiRuby } from "react-icons/di";
 const Skills = () => {
   return (
     <div className="skills">
-      <h2 className="neon">Skills</h2>
+      <h2>Skills</h2>
       <div className="skills--icons">
 
         <div className="skills--each--icon">

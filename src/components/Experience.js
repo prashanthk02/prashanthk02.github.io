@@ -9,7 +9,7 @@ import TimelineDot from '@mui/lab/TimelineDot';
 const Experience = () => {
   return (
     <div className='experience'>
-      <h2 className='neon'>Education & Experience</h2>
+      <h2>Education & Experience</h2>
 
       <Timeline position="alternate">
 

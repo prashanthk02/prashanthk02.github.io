@@ -2,6 +2,10 @@
   padding: 10px;
 }
 
+.projects > h2 {
+  padding: 12px;
+}
+
 .projects--title {
   display: flex;
   flex-direction: row;
@@ -20,10 +24,6 @@
   color: inherit;
   margin-top: 4px;
 }
-
-/* .projects--title > h3 {
-  font-family: 'Comfortaa', cursive;
-} */
 
 .svg {
   font-size: 30px;
@@ -46,17 +46,6 @@
   width: 900px;
   margin: 20px;
   border: none;
-}
-
-/* Neon Text */
-.neon {
-  padding: 12px;
-  font-family: 'Comfortaa', cursive;
-  text-shadow:
-      0 0 10px #fff,
-      0 0 21px #fff,
-      0 0 42px #0580d1,
-      0 0 54px #0580d1;
 }
 
 @media only screen and (max-width:600px) {

@@ -2,17 +2,10 @@
   padding: 10px;
 }
 
-.year {
-  opacity: 30%;
+.experience > h2 {
+  padding: 12px;
 }
 
-/* Neon Text */
-.neon {
-  padding: 12px;
-  font-family: 'Comfortaa', cursive;
-  text-shadow:
-      0 0 10px #fff,
-      0 0 21px #fff,
-      0 0 42px #0580d1,
-      0 0 54px #0580d1;
+.year {
+  opacity: 30%;
 }

@@ -2,6 +2,10 @@
   padding: 10px;
 }
 
+.skills > h2 {
+  padding: 12px;
+}
+
 .skills--icons {
   padding: 10px;
   display: grid;
@@ -18,16 +22,6 @@
   font-size: 80px;
   padding: 10px;
   fill: yellowgreen;
-}
-/* Neon Text */
-.neon {
-  padding: 12px;
-  font-family: 'Comfortaa', cursive;
-  text-shadow:
-      0 0 10px #fff,
-      0 0 21px #fff,
-      0 0 42px #0580d1,
-      0 0 54px #0580d1;
 }
 
 @media only screen and (max-width: 600px) {
