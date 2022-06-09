@@ -16,12 +16,13 @@
   z-index: 9;
   width: 100%;
   height: 75px;
-  background-color: grey;
+  /* background-color: grey; */
 }
 
 .mode {
   position: relative;
   left: 90%;
+  bottom: 100%;
   z-index: 10;
   padding: 24px;
   color: yellowgreen;
@@ -48,6 +49,5 @@
 
   .mode {
     left: 85%;
-    bottom: 100%;
   }
 }

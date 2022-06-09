@@ -2,9 +2,9 @@ import { Box } from "@mui/system";
 
 import '../styles/navbar.css'
 
-const Navbar = () => {
+const Navbar = ({mode}) => {
   return (
-    <div className="navbar">
+    <div className={mode === "light" ? "navbar--light" : "navbar--dark"}>
       <Box padding={3}>
         <h1 className="fName neonText">
           Prashanth Kommidi

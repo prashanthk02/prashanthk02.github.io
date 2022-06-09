@@ -1,11 +1,15 @@
-.sName {
-  display: none;
-  font-family: 'Comfortaa', cursive;
+.navbar--dark {
+  background-color: black;
 }
 
-.fName {
-  font-family: 'Comfortaa', cursive;
+.navbar--light {
+  background-color: white;
 }
+
+.sName {
+  display: none;
+}
+
 
 @media only screen and (max-width: 600px) {
   .fName {
