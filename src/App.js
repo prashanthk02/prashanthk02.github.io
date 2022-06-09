@@ -20,11 +20,11 @@ function App() {
 
   return (
     <div className={mode === "dark" ? "App" : "light"}>
-      <nav className="navbar">
-        <Navbar mode={mode} />
+      <nav className={mode === "light" ? "navbar--light" : "navbar--dark"}>
         <button className="mode" onClick={() => toggleMode()}>
           {mode === "light" ? <MdDarkMode /> : <MdLightMode />}
         </button>
+        <Navbar mode={mode} />
       </nav>
       <About />
       <Skills />

@@ -1,15 +1,11 @@
-.navbar--dark {
-  background-color: black;
-}
-
-.navbar--light {
-  background-color: white;
+.navbar {
+  display: flex;
+  align-items: center;
 }
 
 .sName {
   display: none;
 }
-
 
 @media only screen and (max-width: 600px) {
   .fName {

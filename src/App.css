@@ -10,20 +10,32 @@
   color: white;
 }
 
-.navbar {
+.navbar--light {
   position: fixed;
   top: 0;
   z-index: 9;
   width: 100%;
   height: 75px;
+  display: flex;
+  justify-content: flex-start;
+  background-color: white;
+}
+
+.navbar--dark {
+  position: fixed;
+  top: 0;
+  z-index: 9;
+  width: 100%;
+  height: 75px;
+  display: flex;
+  justify-content: flex-start;
+  background-color: black;
 }
 
 .mode {
   position: relative;
   left: 90%;
-  bottom: 100%;
   z-index: 10;
-  padding: 24px;
   color: yellowgreen;
   background: none;
   border: none;
@@ -41,9 +53,12 @@
   .App {
     background-image: none;
   }
+  .navbar--dark {
+    height: 50px;
+  }
 
-  .navbar {
-   position: relative;
+  .navbar--light {
+    height: 50px;
   }
 
   .mode {
