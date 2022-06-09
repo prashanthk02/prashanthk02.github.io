@@ -7,7 +7,7 @@
   padding: 20px;
 }
 
-.contact--email {
+.contact--option {
   display: flex;
   align-items: center;
   font-size: 14pt;
@@ -19,9 +19,11 @@
   color: yellowgreen;
 }
 
-.contact--email > p {
+.contact--email--dark {
   color: #fff;
-  margin-right: 30px;
+}
+.contact--email--light {
+  color: black;
 }
 
 /* Neon Text */
@@ -38,9 +40,5 @@
 @media only screen and (max-width:600px) {
   .contact--details {
     padding: 10px;
-  }
-
-  .contact--email > p {
-    margin-right: 5px;
   }
 }

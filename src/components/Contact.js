@@ -3,14 +3,14 @@ import { FiMail } from 'react-icons/fi';
 import { FaLinkedin } from 'react-icons/fa';
 import { Link } from '@mui/material';
 
-const Contact = () => {
+const Contact = ({mode}) => {
   return (
     <div className='contact'>
       <h2 className='neon'>Contact</h2>
       <div className='contact--details'>
 
         <Link
-        className='contact--email'
+        className='contact--option'
         href='https://www.linkedin.com/in/pkommidi/'
         target="_blank"
         rel="noopener"
@@ -18,9 +18,17 @@ const Contact = () => {
           <FaLinkedin className='contact--svg'/>
         </Link>
 
-        <Link className='contact--email' href='mailto:pkommidi@outlook.com'>
+        <Link
+        className='contact--option'
+        href='mailto:pkommidi@outlook.com'
+        style={{ textDecoration: 'none' }}
+        >
           <FiMail className='contact--svg'/>
-          <p>pkommidi@outlook.com</p>
+          <p
+          className={mode === "light" ? "contact--email--light" : "contact--email--dark"}
+          >
+            pkommidi@outlook.com
+          </p>
         </Link>
         
       </div>

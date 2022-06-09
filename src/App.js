@@ -30,7 +30,7 @@ function App() {
       <Skills />
       <Projects />
       <Experience />
-      <Contact />
+      <Contact mode={mode} />
     </div>
   );
 }
