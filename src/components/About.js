@@ -4,6 +4,16 @@ import p from "../docs/p.jpg";
 const About = () => {
   return (
     <div className="about">
+      <div className="about--intro">
+        <h1>👋🏼 Hello,</h1>
+        <h3 className="about--i">My name is</h3>
+        <h1 className="about--first">PRASHANTH</h1>
+        <h1 className="about--last">KOMMIDI</h1>
+        <br />
+        <h3 className="about--i">I'm a</h3>
+        <h2 className="about--f">Full stack</h2>
+        <h2 className="about--w">Web developer 👨🏻‍💻</h2>
+      </div>
       <h2>About me</h2>
       <div className="about--desc">
         <img className="about--img" src={p} alt="prashanth" />

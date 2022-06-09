@@ -23,6 +23,41 @@
   margin: 20px;
 }
 
+.about--intro {
+  border: 1px solid red;
+  margin: 15px;
+}
+
+.about--first {
+  padding: 5px;
+  padding-left: 30px;
+  color: lightgrey;
+}
+
+.about--last {
+  padding: 5px;
+  padding-left: 115px;
+  color: gray;
+}
+
+.about--i {
+  padding: 5px;
+  padding-left: 115px;
+  opacity: 80%;
+}
+
+.about--f {
+  padding: 5px;
+  padding-left: 150px;
+  color: gray;
+}
+
+.about--w {
+  padding: 5px;
+  padding-left: 85px;
+  color: gray;
+}
+
 @media only screen and (max-width: 600px) {
   .about {
     margin-top: 40px;
