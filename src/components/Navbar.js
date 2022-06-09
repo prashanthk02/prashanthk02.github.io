@@ -7,7 +7,7 @@ const Navbar = ({mode}) => {
           Prashanth Kommidi
         </h1>
         <h1 className="sName">
-          PRASHANTH
+          Prashanth
         </h1> 
     </div>
   )

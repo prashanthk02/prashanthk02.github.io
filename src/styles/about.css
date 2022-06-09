@@ -9,7 +9,6 @@
 
 .about--desc {
   margin: 20px;
-  display: flex;
 }
 
 .about--img {
@@ -24,20 +23,23 @@
 }
 
 .about--intro {
-  border: 1px solid red;
   margin: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .about--first {
   padding: 5px;
   padding-left: 30px;
-  color: lightgrey;
+  color: gray;
 }
 
 .about--last {
   padding: 5px;
   padding-left: 115px;
   color: gray;
+  opacity: 60%;
 }
 
 .about--i {
@@ -64,10 +66,13 @@
   }
 
   .about--desc {
+    margin: 5px;
+  }
+
+  .about--intro {
     margin: 10px;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    gap: 20px;
   }
 
   .about--img {
