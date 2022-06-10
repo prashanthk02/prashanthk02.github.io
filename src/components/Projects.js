@@ -36,10 +36,14 @@ const Projects = () => {
         { show === 1 &&
         <div className='projects--demo'>
           <p>
-            Whats sup is a recipe finder app built using react on the frontend and express on the backend,
-            user can search for recipes by cuisine, ingredients, diet preference or
-            can plan daily meals by calorie intake.
+            What's sup is a recipe search web application
+            that provides user with mutiple recipes based
+            on four search criteria: cuisine, ingredients,
+            calories and diet preference.
+            Registered users can be able to add a recipe to thier favorite list from search results.
           </p>
+          <br />
+          <p>Tech stack: React, Express, NodeJs, Sass, PostgreSQL</p>
           <br />
 
           <video playsInline muted autoPlay loop controls controlsList="nodownload">
@@ -68,11 +72,12 @@ const Projects = () => {
         { show === 2 &&
         <div className='projects--demo'>
           <p>
-            Built using Express, jQuery,EJS and Twilio that allows users to
-            place an online food orders at a restaurant and notifies to pick up
-            when the order is ready for pickup via text message.
-            Project was built as a Midterm-Project as student at Lighthouse labs
+            Food ordering is a web application that allows users to
+            place an online order at a restaurant and notifies the user to pick up
+            when the order is ready via text message as restaurant confirms.
           </p>
+          <br />
+          <p>Tech stack: Express, jQuery, EJS, Sass, PostgreSQL, Twilio</p>
           <br />
 
           <video playsInline muted autoPlay loop controls controlsList="nodownload">
