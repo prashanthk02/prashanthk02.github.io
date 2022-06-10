@@ -23,12 +23,19 @@ import {
   SiStorybook,
 } from "react-icons/si";
 import { DiRuby } from "react-icons/di";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 const Skills = () => {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
   return (
     <div className="skills">
       <h2>Skills</h2>
-      <div className="skills--icons">
+      <div className="skills--icons" data-aos="zoom-in" data-aos-duration="2000">
 
         <div className="skills--each--icon">
           <SiJavascript className="skills--svg" />
