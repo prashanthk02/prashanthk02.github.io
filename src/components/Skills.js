@@ -174,7 +174,7 @@ const Skills = () => {
 
         <div
           className="skills--each--icon"
-          data-aos="zoom-in-left"
+          data-aos="zoom-in-down"
           data-aos-duration="3000"
         >
           <SiMocha className="skills--svg" />
