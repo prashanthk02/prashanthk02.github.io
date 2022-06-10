@@ -17,7 +17,7 @@ const Experience = () => {
             <TimelineDot />
             <TimelineConnector />
           </TimelineSeparator>
-          <TimelineContent>
+          <TimelineContent data-aos="zoom-in-left" data-aos-duration="1500">
             <div>Bachelor degree in Commerce</div>
             <div className="year">2013 - 2016</div>
           </TimelineContent>
@@ -28,7 +28,7 @@ const Experience = () => {
             <TimelineDot />
             <TimelineConnector />
           </TimelineSeparator>
-          <TimelineContent>
+          <TimelineContent data-aos="zoom-in-right" data-aos-duration="1500">
             <div>Postgraduate diploma in Supply chain management</div>
             <div className="year">2017 - 2018</div>
           </TimelineContent>
@@ -39,7 +39,7 @@ const Experience = () => {
             <TimelineDot />
             <TimelineConnector />
           </TimelineSeparator>
-          <TimelineContent>
+          <TimelineContent data-aos="zoom-in-left" data-aos-duration="1500">
             <div>Receiving supervisor</div>
             <div className="year">2019 - 2021</div>
           </TimelineContent>
@@ -50,7 +50,7 @@ const Experience = () => {
             <TimelineDot />
             <TimelineConnector />
           </TimelineSeparator>
-          <TimelineContent>
+          <TimelineContent data-aos="zoom-in-right" data-aos-duration="1500">
             <div>Inventory co-ordinator</div>
             <div className="year">2021 - 2022</div>
           </TimelineContent>
@@ -60,7 +60,7 @@ const Experience = () => {
           <TimelineSeparator>
             <TimelineDot />
           </TimelineSeparator>
-          <TimelineContent>
+          <TimelineContent data-aos="zoom-in-left" data-aos-duration="1500">
             <div>Diploma in Web development</div>
             <div className="year">2022 - 2022</div>
           </TimelineContent>
