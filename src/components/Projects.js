@@ -20,12 +20,12 @@ const Projects = () => {
       <h2>My Projects</h2>
 
       <div className="projects--container">
-        <div onClick={() => toggle(1)} className="projects--title">
+        <div onClick={() => toggle(1)} className="projects--header">
           <img
             className="projects--thumb"
             src="https://github.com/prashanthk02/whatssup/blob/main/frontend/docs/Img1.png?raw=true"
           />
-          <div className="projects--header">
+          <div className="projects--title">
             What's sup
             <br />
             Click to view demo
@@ -67,12 +67,12 @@ const Projects = () => {
           </div>
         )}
 
-        <div onClick={() => toggle(2)} className="projects--title">
+        <div onClick={() => toggle(2)} className="projects--header">
           <img
             className="projects--thumb"
             src="https://github.com/prashanthk02/Food-Order-pickup/blob/master/docs/lhg-menupage.png?raw=true"
           />
-          <div className="projects--header">
+          <div className="projects--title">
             Food ordering
             <br />
             Click to view demo

@@ -6,7 +6,7 @@
   padding: 12px;
 }
 
-.projects--title {
+.projects--header {
   display: flex;
   align-items: center;
   margin: 20px 40px;
@@ -20,7 +20,7 @@
   border-radius: 10px;
 }
 
-.projects--header {
+.projects--title {
   position: relative;
   right: 100%;
   min-width: 320px;
@@ -36,7 +36,7 @@
   transition: 500ms;
 }
 
-.projects--header:hover {
+.projects--title:hover {
   opacity: 1;
 }
 
@@ -67,7 +67,7 @@
 }
 
 @media only screen and (max-width:600px) {
-  .projects--title {
+  .projects--header {
     align-items: center;
   }
 
