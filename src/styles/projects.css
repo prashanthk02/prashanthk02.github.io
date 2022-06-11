@@ -30,9 +30,9 @@
   align-items: center;
   justify-content: center;
   opacity: 0;
-  background-color: gray;
+  background-color: green;
   border-radius: 10px;
-  line-height: 1.6;
+  line-height: 3;
   transition: 500ms;
 }
 
@@ -41,7 +41,7 @@
 }
 
 .svg {
-  font-size: 28px;
+  font-size: 30px;
   margin-left: 20px;
   color: yellowgreen;
 }
@@ -55,6 +55,8 @@
   flex-direction: column;
   align-items: center;
   padding: 0px 100px;
+  margin-bottom: 50px;
+  border-bottom: 0.1pt solid gray;
 }
 
 .projects--demo > video {

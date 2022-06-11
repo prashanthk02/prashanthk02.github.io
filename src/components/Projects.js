@@ -20,10 +20,16 @@ const Projects = () => {
       <h2>My Projects</h2>
 
       <div className="projects--container">
-
         <div onClick={() => toggle(1)} className="projects--title">
-            <img className="projects--thumb" src="https://github.com/prashanthk02/whatssup/blob/main/frontend/docs/Img1.png?raw=true" />
-            <div className="projects--header">What's sup<br />Click to view demo</div>
+          <img
+            className="projects--thumb"
+            src="https://github.com/prashanthk02/whatssup/blob/main/frontend/docs/Img1.png?raw=true"
+          />
+          <div className="projects--header">
+            What's sup
+            <br />
+            Click to view demo
+          </div>
         </div>
 
         {show === 1 && (
@@ -62,8 +68,15 @@ const Projects = () => {
         )}
 
         <div onClick={() => toggle(2)} className="projects--title">
-            <img className="projects--thumb" src="https://github.com/prashanthk02/Food-Order-pickup/blob/master/docs/lhg-menupage.png?raw=true" />
-            <div className="projects--header">Food ordering<br />Click to view demo</div>
+          <img
+            className="projects--thumb"
+            src="https://github.com/prashanthk02/Food-Order-pickup/blob/master/docs/lhg-menupage.png?raw=true"
+          />
+          <div className="projects--header">
+            Food ordering
+            <br />
+            Click to view demo
+          </div>
         </div>
 
         {show === 2 && (
