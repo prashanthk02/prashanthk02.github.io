@@ -31,6 +31,10 @@
   color: black;
 }
 
+.contact > p {
+  text-align: right;
+}
+
 @media only screen and (max-width:600px) {
   .contact--details {
     padding: 10px;
