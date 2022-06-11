@@ -1,10 +1,6 @@
 import { Link } from "@mui/material";
 import { useState } from "react";
 import { FaGithub } from "react-icons/fa";
-import {
-  IoIosArrowDropdownCircle,
-  IoIosArrowDroprightCircle,
-} from "react-icons/io";
 import food from "../docs/food.mp4";
 import what from "../docs/whatssup.mp4";
 import "../styles/projects.css";
@@ -24,22 +20,10 @@ const Projects = () => {
       <h2>My Projects</h2>
 
       <div className="projects--container">
-        <div className="projects--title">
-          <button onClick={() => toggle(1)}>
-            {show === 1 ? (
-              <IoIosArrowDropdownCircle />
-            ) : (
-              <IoIosArrowDroprightCircle />
-            )}
-          </button>
-          <h3 onClick={() => toggle(1)}>What's sup</h3>
-          <Link
-            href="https://github.com/prashanthk02/whatssup"
-            target="_blank"
-            rel="noopener"
-          >
-            {show === 1 && <FaGithub className="svg" />}
-          </Link>
+
+        <div onClick={() => toggle(1)} className="projects--title">
+            <img className="projects--thumb" src="https://github.com/prashanthk02/whatssup/blob/main/frontend/docs/Img1.png?raw=true" />
+            <div className="projects--header">What's sup<br />Click to view demo</div>
         </div>
 
         {show === 1 && (
@@ -51,7 +35,16 @@ const Projects = () => {
               able to add a recipe to thier favorite list from search results.
             </p>
             <br />
-            <p>Tech stack: React, Express, NodeJs, Sass, PostgreSQL</p>
+            <p>
+              Tech stack: React, Express, NodeJs, Sass, PostgreSQL
+              <Link
+                href="https://github.com/prashanthk02/whatssup"
+                target="_blank"
+                rel="noopener"
+              >
+                <FaGithub className="svg" />
+              </Link>
+            </p>
             <br />
 
             <video
@@ -67,25 +60,10 @@ const Projects = () => {
             </video>
           </div>
         )}
-      </div>
 
-      <div className="projects--container">
-        <div className="projects--title">
-          <button onClick={() => toggle(2)}>
-            {show === 2 ? (
-              <IoIosArrowDropdownCircle />
-            ) : (
-              <IoIosArrowDroprightCircle />
-            )}
-          </button>
-          <h3 onClick={() => toggle(2)}>Food ordering</h3>
-          <Link
-            href="https://github.com/prashanthk02/Food-Order-pickup"
-            target="_blank"
-            rel="noopener"
-          >
-            {show === 2 && <FaGithub className="svg" />}
-          </Link>
+        <div onClick={() => toggle(2)} className="projects--title">
+            <img className="projects--thumb" src="https://github.com/prashanthk02/Food-Order-pickup/blob/master/docs/lhg-menupage.png?raw=true" />
+            <div className="projects--header">Food ordering<br />Click to view demo</div>
         </div>
 
         {show === 2 && (
@@ -96,7 +74,16 @@ const Projects = () => {
               the order is ready via text message as restaurant confirms.
             </p>
             <br />
-            <p>Tech stack: Express, jQuery, EJS, Sass, PostgreSQL, Twilio</p>
+            <p>
+              Tech stack: Express, jQuery, EJS, Sass, PostgreSQL, Twilio
+              <Link
+                href="https://github.com/prashanthk02/Food-Order-pickup"
+                target="_blank"
+                rel="noopener"
+              >
+                <FaGithub className="svg" />
+              </Link>
+            </p>
             <br />
 
             <video

@@ -8,25 +8,41 @@
 
 .projects--title {
   display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
   align-items: center;
   margin: 20px 40px;
-  padding: 0px 10px;
-  gap: 20px;
+  width: 320px;
+  height: 220px;
 }
 
-.projects--title > button {
-  font-size: 26px;
-  font-weight: 600;
-  background: none;
-  border: none;
-  color: inherit;
-  margin-top: 4px;
+.projects--thumb {
+  width: 320px;
+  height: 220px;
+  border-radius: 10px;
+}
+
+.projects--header {
+  position: relative;
+  right: 100%;
+  min-width: 320px;
+  min-height: 220px;
+  font-size: 16pt;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  background-color: gray;
+  border-radius: 10px;
+  line-height: 1.6;
+  transition: 500ms;
+}
+
+.projects--header:hover {
+  opacity: 1;
 }
 
 .svg {
-  font-size: 30px;
+  font-size: 28px;
+  margin-left: 20px;
   color: yellowgreen;
 }
 
@@ -50,9 +66,7 @@
 
 @media only screen and (max-width:600px) {
   .projects--title {
-    margin: 15px 5px;
-    padding: 0px 10px;
-    font-size: 10pt;
+    align-items: center;
   }
 
   .projects--demo {
