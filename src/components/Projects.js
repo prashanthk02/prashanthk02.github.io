@@ -24,6 +24,7 @@ const Projects = () => {
           <img
             className="projects--thumb"
             src="https://github.com/prashanthk02/whatssup/blob/main/frontend/docs/Img1.png?raw=true"
+            alt="whats sup"
           />
           <div className="projects--title">
             What's sup
@@ -71,6 +72,7 @@ const Projects = () => {
           <img
             className="projects--thumb"
             src="https://github.com/prashanthk02/Food-Order-pickup/blob/master/docs/lhg-menupage.png?raw=true"
+            alt="Food ordering"
           />
           <div className="projects--title">
             Food ordering
