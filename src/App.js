@@ -16,13 +16,17 @@ function App() {
       return setMode("light");
     }
     return setMode("dark");
-  }
+  };
 
   return (
     <div className={mode === "dark" ? "App" : "light"}>
       <nav className={mode === "light" ? "navbar--light" : "navbar--dark"}>
         <button className="mode" onClick={() => toggleMode()}>
-          {mode === "light" ? <MdDarkMode /> : <MdLightMode />}
+          {mode === "light" ? (
+            <MdDarkMode className="dark-btn" />
+          ) : (
+            <MdLightMode className="light-btn" />
+          )}
         </button>
         <Navbar />
       </nav>

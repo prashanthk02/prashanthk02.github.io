@@ -38,11 +38,26 @@
   position: relative;
   left: 90%;
   z-index: 10;
-  color: yellowgreen;
   background: none;
   border: none;
   font-size: 32px;
   cursor: pointer;
+}
+
+.mode:hover {
+  animation: rotate 3s;
+}
+
+@keyframes rotate {
+  50% {transform: rotate(360deg);}
+}
+
+.dark-btn {
+  color: #122F50;
+}
+
+.light-btn {
+  color: #FFFF66;
 }
 
 .light {
