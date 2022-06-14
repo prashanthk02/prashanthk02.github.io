@@ -73,9 +73,9 @@ const About = ({ mode }) => {
           project management and improving customer satisfaction, also skilled in quick learning
           and adapting to new and complex situations.
           With interest in technology and passion to build web applications
-          I decided to make a carrer transition and learned to code,
+          I decided to make a career transition and learned to code,
           as a developer I intend to create interactive applications
-          that make people's lives easier. Eager to leverage
+          that makes people's lives easier. Eager to leverage
           a diverse range of talents in a new and engaging professional
           environment, committed to lifelong learning and personal development.
         </p>
