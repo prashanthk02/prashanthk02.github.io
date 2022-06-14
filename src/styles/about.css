@@ -36,13 +36,13 @@
 .about--first {
   padding: 5px;
   padding-left: 30px;
-  color: gray;
+  color: #FC4A1A;
 }
 
 .about--last {
   padding: 5px;
   padding-left: 115px;
-  color: gray;
+  color: #4ABDAC;
   opacity: 60%;
 }
 
@@ -55,13 +55,13 @@
 .about--f {
   padding: 5px;
   padding-left: 150px;
-  color: gray;
+  color: #F7B733;
 }
 
 .about--w {
   padding: 5px;
   padding-left: 85px;
-  color: gray;
+  color: #F7B733;
 }
 
 @media only screen and (max-width: 600px) {
