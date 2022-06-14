@@ -68,15 +68,15 @@ const About = ({ mode }) => {
 
       <div className="about--desc">
         <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s with
-          the release of Letraset sheets containing Lorem Ipsum passages, and
-          more recently with desktop publishing software like Aldus PageMaker
-          including versions of Lorem Ipsum
+          I have 4+ years of experience in supply chain industry, 
+          being a supply chain professional I gained experience in relationship building,
+          project management and improving customer satisfaction, also skilled in quick learning
+          and adapting to new and complex situations.
+          With interest in technology and passion to build web applications I decided to make a carrer transition and learned to code,
+          and as a developer I intend to create interactive applications
+          that make people's lives easier. Eager to leverage
+          a diverse range of talents in a new and engaging professional
+          environment, committed to lifelong learning and personal development.
         </p>
       </div>
     </div>
