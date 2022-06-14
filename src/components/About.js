@@ -72,8 +72,9 @@ const About = ({ mode }) => {
           being a supply chain professional I gained experience in relationship building,
           project management and improving customer satisfaction, also skilled in quick learning
           and adapting to new and complex situations.
-          With interest in technology and passion to build web applications I decided to make a carrer transition and learned to code,
-          and as a developer I intend to create interactive applications
+          With interest in technology and passion to build web applications
+          I decided to make a carrer transition and learned to code,
+          as a developer I intend to create interactive applications
           that make people's lives easier. Eager to leverage
           a diverse range of talents in a new and engaging professional
           environment, committed to lifelong learning and personal development.
