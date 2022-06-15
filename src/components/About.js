@@ -68,16 +68,25 @@ const About = ({ mode }) => {
 
       <div className="about--desc">
         <p>
-          I have 4+ years of experience in supply chain industry, 
-          being a supply chain professional I gained experience in relationship building,
-          project management and improving customer satisfaction, also skilled in quick learning
-          and adapting to new and complex situations.
-          With interest in technology and passion to build web applications
-          I decided to make a career transition and learned to code,
-          as a developer I intend to create interactive applications
-          that makes people's lives easier. Eager to leverage
-          a diverse range of talents in a new and engaging professional
-          environment, committed to lifelong learning and personal development.
+          I always had a passion to create web sites and web applications,
+          so I took a step forward and decided to learn coding. I joined Lighthouse labs
+          to pursue web development and transform my passion into a career,
+          and successfully graduated as a Full stack web developer. In the journey I
+          met some amazing instructors and wonderful fellow classmates who had
+          the similar passion and goals.
+        </p>
+        <br />
+        <p>
+          I have 4 years of experience in the supply chain industry,
+          gaining valuable and transferable skills in relationship building,
+          strategic planning and project management. A strong track record of quick
+          learning and adapting to new and complex situations.
+        </p>
+        <br />
+        <p>          
+          I'm actively seeking opportunities and eager to
+          leverage a diverse range of talents in a new and professional setting,
+          committed to lifelong learning and personal development.
         </p>
       </div>
     </div>

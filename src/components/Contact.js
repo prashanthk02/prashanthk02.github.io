@@ -34,7 +34,6 @@ const Contact = ({ mode }) => {
           </p>
         </Link>
       </div>
-      <p><FaRegCopyright /> Copyright.</p>
     </div>
   );
 };
