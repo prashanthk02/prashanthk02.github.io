@@ -1,7 +1,6 @@
 import Link from "react-scroll/modules/components/Link";
 import { animateScroll } from "react-scroll/modules";
 import p from "../docs/p.jpg";
-import { TbMenu } from "react-icons/tb";
 import "../styles/navbar.css";
 
 const Navbar = ({ mode }) => {

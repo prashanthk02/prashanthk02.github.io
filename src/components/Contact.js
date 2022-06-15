@@ -1,6 +1,6 @@
 import "../styles/contact.css";
 import { FiMail } from "react-icons/fi";
-import { FaLinkedin, FaRegCopyright } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 import { Link } from "@mui/material";
 
 const Contact = ({ mode }) => {
