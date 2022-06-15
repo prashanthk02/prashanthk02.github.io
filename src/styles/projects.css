@@ -66,6 +66,13 @@
   border: none;
 }
 
+.projects--demo > img {
+  height: 600px;
+  width: 900px;
+  margin: 20px;
+  border: none;
+}
+
 @media only screen and (max-width:600px) {
   .projects--header {
     align-items: center;
@@ -80,10 +87,21 @@
     width: 360px;
     margin: 5px;
   }
+
+  .projects--demo > img {
+    height: 240px;
+    width: 360px;
+    margin: 5px;
+  }
 }
 
 @media only screen and (min-width:601px) and (max-width:900px) {
   .projects--demo > video {
+    height: 300px;
+    width: 600px;
+  }
+
+  .projects--demo > img {
     height: 300px;
     width: 600px;
   }
