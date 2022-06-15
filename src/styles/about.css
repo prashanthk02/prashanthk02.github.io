@@ -36,14 +36,15 @@
 .about--first {
   padding: 5px;
   padding-left: 30px;
-  color: #FC4A1A;
+  color: #00BCD4;
+  letter-spacing: 5px;
 }
 
 .about--last {
   padding: 5px;
   padding-left: 115px;
-  color: #4ABDAC;
-  opacity: 60%;
+  color: #00BCD4;
+  letter-spacing: 2px;
 }
 
 .about--i {
