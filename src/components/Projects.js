@@ -115,7 +115,7 @@ const Projects = () => {
           </div>
         )}
 
-<div onClick={() => toggle(3)} className="projects--header">
+        <div onClick={() => toggle(3)} className="projects--header">
           <img
             className="projects--thumb"
             src="https://github.com/prashanthk02/scheduler/raw/master/docs/Form.png?raw=true"
@@ -131,9 +131,10 @@ const Projects = () => {
         {show === 3 && (
           <div className="projects--demo">
             <p>
-              Scheduler is a single page application that allows students to book
-              interview appointments with mentors, also allows to modify appointments if required.
-              App is tested using Storybook, Jest and Cypress.
+              Scheduler is a single page application that allows students to
+              book interview appointments with mentors, also allows to modify
+              appointments if required. App is tested using Storybook, Jest and
+              Cypress.
             </p>
             <br />
             <p>
@@ -148,10 +149,9 @@ const Projects = () => {
             </p>
             <br />
             <img
-            src="https://github.com/prashanthk02/scheduler/raw/master/docs/Form.png?raw=true"
-            alt="Scheduler"
-          />
-
+              src="https://github.com/prashanthk02/scheduler/raw/master/docs/Form.png?raw=true"
+              alt="Scheduler"
+            />
           </div>
         )}
       </div>

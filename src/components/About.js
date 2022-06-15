@@ -68,25 +68,25 @@ const About = ({ mode }) => {
 
       <div className="about--desc">
         <p>
-          I always had a passion to create web sites and web applications,
-          so I took a step forward and decided to learn coding. I joined Lighthouse labs
-          to pursue web development and transform my passion into a career,
-          and successfully graduated as a Full stack web developer. In the journey I
-          met some amazing instructors and wonderful fellow classmates who had
-          the similar passion and goals.
+          I always had a passion to create web sites and web applications, so I
+          took a step forward and decided to learn coding. I joined Lighthouse
+          labs to pursue web development and transform my passion into a career,
+          and successfully graduated as a Full stack web developer. In the
+          journey I met some amazing instructors and wonderful fellow classmates
+          who had the similar passion and goals.
         </p>
         <br />
         <p>
-          I have 4 years of experience in the supply chain industry,
-          gaining valuable and transferable skills in relationship building,
-          strategic planning and project management. A strong track record of quick
+          I have 4 years of experience in the supply chain industry, gaining
+          valuable and transferable skills in relationship building, strategic
+          planning and project management. A strong track record of quick
           learning and adapting to new and complex situations.
         </p>
         <br />
-        <p>          
-          I'm actively seeking opportunities and eager to
-          leverage a diverse range of talents in a new and professional setting,
-          committed to lifelong learning and personal development.
+        <p>
+          I'm actively seeking opportunities and eager to leverage a diverse
+          range of talents in a new and professional setting, committed to
+          lifelong learning and personal development.
         </p>
       </div>
     </div>
