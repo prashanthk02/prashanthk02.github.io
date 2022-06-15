@@ -1,18 +1,23 @@
 .navbar {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
 }
 
-.sName {
-  display: none;
+.navbar--avatar {
+  width: 55px;
+  border-radius: 50px;
+}
+
+.navbar--links {
+  display: flex;
+  margin-left: 30px;
+  gap: 15px;
 }
 
 @media only screen and (max-width: 600px) {
-  .fName {
+  .navbar--avatar {
     display: none;
-  }
-
-  .sName {
-    display: block;
   }
 }
