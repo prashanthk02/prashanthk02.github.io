@@ -29,7 +29,7 @@ const Projects = () => {
           <div className="projects--title">
             What's sup
             <br />
-            Click to view demo
+            Click to view more
           </div>
         </div>
 
@@ -77,7 +77,7 @@ const Projects = () => {
           <div className="projects--title">
             Food ordering
             <br />
-            Click to view demo
+            Click to view more
           </div>
         </div>
 
@@ -124,7 +124,7 @@ const Projects = () => {
           <div className="projects--title">
             Scheduler
             <br />
-            Click to view
+            Click to view more
           </div>
         </div>
 
