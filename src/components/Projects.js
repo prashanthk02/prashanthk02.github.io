@@ -12,7 +12,7 @@ const Projects = () => {
       <div className="projects--container">
         <div className="projects--card">
           <div className="projects--title">
-            <h2>whatssup</h2>
+            <h2>what's sup</h2>
             <Link
               href="https://github.com/prashanthk02/whatssup"
               target="_blank"
@@ -22,27 +22,30 @@ const Projects = () => {
             </Link>
           </div>
 
-          <video
-            playsInline
-            muted
-            autoPlay
-            loop
-            controls
-            controlsList="nodownload"
-            width="360px"
-          >
-            <source src={what} type="video/mp4" />
-            Your browser does not support the video.
-          </video>
+
+          <div className="projects--demo">
+            <video
+              playsInline
+              muted
+              autoPlay
+              loop
+              controls
+              controlsList="nodownload"
+              className="aaa"
+            >
+              <source src={what} type="video/mp4" />
+              Your browser does not support the video.
+            </video>
+          </div>
 
           <p>
             What's sup is a recipe search web application that provides user
             with mutiple recipes based on four search criteria: cuisine,
             ingredients, calories and diet preference.
           </p>
-          <br />
+
           <span>
-            Tech stack:
+            <h3>Tech stack:</h3>
             <ul>
               <li>React</li>
               <li>Express</li>
@@ -52,8 +55,6 @@ const Projects = () => {
             </ul>
           </span>
         </div>
-
-        {/* 2///////////////////////// */}
 
         <div className="projects--card">
           <div className="projects--title">
@@ -67,27 +68,28 @@ const Projects = () => {
             </Link>
           </div>
 
-          <video
-            playsInline
-            muted
-            autoPlay
-            loop
-            controls
-            controlsList="nodownload"
-            width="360px"
-          >
-            <source src={food} type="video/mp4" />
-            Your browser does not support the video.
-          </video>
+          <div className="projects--demo">
+            <video
+              playsInline
+              muted
+              autoPlay
+              loop
+              controls
+              controlsList="nodownload"
+            >
+              <source src={food} type="video/mp4" />
+              Your browser does not support the video.
+            </video>
+          </div>
 
           <p>
             Food ordering is a web application that allows users to place an
             online order at a restaurant and notifies the user to pick up when
             the order is ready via text message as restaurant confirms.
           </p>
-          <br />
+
           <span>
-            Tech stack:
+            <h3>Tech stack:</h3>
             <ul>
               <li>Express</li>
               <li>jQuery</li>
@@ -98,8 +100,6 @@ const Projects = () => {
             </ul>
           </span>
         </div>
-
-        {/* 3//////////////// */}
 
         <div className="projects--card">
           <div className="projects--title">
@@ -113,11 +113,13 @@ const Projects = () => {
             </Link>
           </div>
 
-          <img
-            src="https://github.com/prashanthk02/scheduler/raw/master/docs/Form.png?raw=true"
-            alt="Scheduler"
-            width="360px"
-          />
+          <div className="projects--demo">
+            <img
+              src="https://github.com/prashanthk02/scheduler/raw/master/docs/Form.png?raw=true"
+              alt="Scheduler"
+            />
+          </div>
+
 
           <p>
             Scheduler is a single page application that allows students to book
@@ -125,9 +127,9 @@ const Projects = () => {
             appointments if required. App is tested using Storybook, Jest and
             Cypress.
           </p>
-          <br />
+
           <span>
-            Tech stack:
+            <h3>Tech stack:</h3>
             <ul>
               <li>React</li>
               <li>Axios</li>
