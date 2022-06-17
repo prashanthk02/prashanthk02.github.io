@@ -30,7 +30,7 @@ const About = ({ mode }) => {
 
           <h1
             className="about--last"
-            data-aos="fade-left"
+            data-aos="fade-right"
             data-aos-duration="2500"
           >
             KOMMIDI
@@ -40,9 +40,9 @@ const About = ({ mode }) => {
 
           <h3 className="about--i">I'm a</h3>
 
-          <h2 className="about--f" data-aos="flip-up" data-aos-duration="2500">
+          {/* <h2 className="about--f" data-aos="flip-up" data-aos-duration="2500">
             Full stack
-          </h2>
+          </h2> */}
 
           <h2
             className="about--w"

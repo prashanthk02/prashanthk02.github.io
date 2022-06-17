@@ -4,7 +4,16 @@
 }
 
 .about > h2 {
-  padding: 12px;
+  padding: 10px;
+  margin-top: 74px;
+  margin-bottom: 25px;
+  border: 1px solid black;
+  border-radius: 4px;
+  background-color: rgba(153, 205, 50, 0.8);
+  width: 350px;
+  text-align: center;
+  position: relative;
+  left: 4%;
 }
 
 .about--desc {
@@ -66,7 +75,7 @@
   opacity: 80%;
 }
 
-.about--f {
+/* .about--f {
   padding: 10px;
   margin: 5px;
   position: relative;
@@ -76,7 +85,7 @@
   background-color: black;
   border: 0.1px solid yellowgreen;
   box-shadow: 4px 3px lightgray;
-}
+} */
 
 .about--w {
   padding: 10px;
