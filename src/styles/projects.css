@@ -6,38 +6,37 @@
   padding: 12px;
 }
 
-.projects--header {
-  display: flex;
-  align-items: center;
-  margin: 20px 40px;
-  width: 320px;
-  height: 220px;
-}
-
-.projects--thumb {
-  width: 320px;
-  height: 220px;
-  border-radius: 10px;
-}
-
-.projects--title {
-  position: relative;
-  right: 100%;
-  min-width: 320px;
-  min-height: 220px;
-  font-size: 16pt;
+.projects--container {
   display: flex;
   align-items: center;
   justify-content: center;
-  opacity: 0;
-  background-color: green;
-  border-radius: 10px;
-  line-height: 3;
-  transition: 500ms;
+  gap: 20px;
 }
 
-.projects--title:hover {
-  opacity: 1;
+.projects--card {
+  border: 1px solid red;
+  height: 600px;
+  width: 400px;
+  padding: 20px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  border-radius: 5px;
+  background-color: rgba(128, 128, 128, 0.25);
+}
+
+.projects--title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid red;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgba(128, 128, 128, 0.5);
 }
 
 .svg {
@@ -46,63 +45,8 @@
   color: yellowgreen;
 }
 
-.projects--demo > p {
-  line-height: 1.6;
+@media only screen and (max-width: 600px) {
 }
 
-.projects--demo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 0px 100px;
-  margin-bottom: 50px;
-  border-bottom: 0.1pt solid gray;
-}
-
-.projects--demo > video {
-  height: 600px;
-  width: 900px;
-  margin: 20px;
-  border: none;
-}
-
-.projects--demo > img {
-  height: 600px;
-  width: 900px;
-  margin: 20px;
-  border: none;
-}
-
-@media only screen and (max-width:600px) {
-  .projects--header {
-    align-items: center;
-  }
-
-  .projects--demo {
-    padding: 0px 10px;
-  }
-  
-  .projects--demo > video {
-    height: 240px;
-    width: 360px;
-    margin: 5px;
-  }
-
-  .projects--demo > img {
-    height: 240px;
-    width: 360px;
-    margin: 5px;
-  }
-}
-
-@media only screen and (min-width:601px) and (max-width:900px) {
-  .projects--demo > video {
-    height: 300px;
-    width: 600px;
-  }
-
-  .projects--demo > img {
-    height: 300px;
-    width: 600px;
-  }
+@media only screen and (min-width: 601px) and (max-width: 900px) {
 }
