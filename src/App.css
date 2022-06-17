@@ -3,10 +3,8 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: 60%;
-  background-color: black;
+  background-color: #021122;
   background-size: cover;
-  /* width: 100vw; */
-  /* min-height: 100vh; */
   color: white;
 }
 
@@ -40,24 +38,9 @@
   z-index: 10;
   background: none;
   border: none;
-  font-size: 32px;
+  font-size: 30px;
   cursor: pointer;
-}
-
-.mode:hover {
-  animation: rotate 3s;
-}
-
-@keyframes rotate {
-  50% {transform: rotate(360deg);}
-}
-
-.dark-btn {
-  color: #122F50;
-}
-
-.light-btn {
-  color: #F7B733;
+  color: inherit;
 }
 
 .light {
@@ -72,6 +55,7 @@
   }
   .navbar--dark {
     height: 50px;
+    background-color: #021122;
   }
 
   .navbar--light {
