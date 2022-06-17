@@ -14,7 +14,7 @@ const About = ({ mode }) => {
     <div className="about">
       <div className="about--intro">
         <div>
-          <h1 data-aos="fade-down-right" data-aos-duration="2500">
+          <h1>
             👋🏼 Hello,
           </h1>
 

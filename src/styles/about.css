@@ -35,34 +35,51 @@
 
 .about--first {
   padding: 5px;
-  padding-left: 30px;
-  color: #00BCD4;
+  position: relative;
+  right: 10%;
+  text-align: right;
+  background-color: goldenrod;
+  color: black;
   letter-spacing: 5px;
+  border: 0.1px solid black;
 }
 
 .about--last {
   padding: 5px;
-  padding-left: 115px;
-  color: #00BCD4;
-  letter-spacing: 2px;
+  position: relative;
+  left: 10%;
+  text-align: right;
+  background-color: goldenrod;
+  color: black;
+  letter-spacing: 5px;
+  border: 0.1px solid black;
 }
 
 .about--i {
   padding: 5px;
-  padding-left: 115px;
+  position: relative;
+  left: 25%;
   opacity: 80%;
 }
 
 .about--f {
-  padding: 5px;
-  padding-left: 150px;
-  color: #F7B733;
+  padding: 10px;
+  position: relative;
+  left: 10%;
+  text-align: center;
+  color: goldenrod;
+  background-color: black;
+  border: 0.1px solid goldenrod;
 }
 
 .about--w {
-  padding: 5px;
-  padding-left: 85px;
-  color: #F7B733;
+  padding: 10px;
+  position: relative;
+  right: 5%;
+  text-align: center;
+  color: goldenrod;
+  background-color: black;
+  border: 0.1px solid goldenrod;
 }
 
 @media only screen and (max-width: 600px) {
