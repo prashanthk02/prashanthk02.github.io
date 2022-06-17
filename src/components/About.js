@@ -22,7 +22,7 @@ const About = ({ mode }) => {
 
           <h1
             className="about--first"
-            data-aos="fade-right"
+            data-aos="fade-left"
             data-aos-duration="2500"
           >
             PRASHANTH
@@ -40,16 +40,12 @@ const About = ({ mode }) => {
 
           <h3 className="about--i">I'm a</h3>
 
-          {/* <h2 className="about--f" data-aos="flip-up" data-aos-duration="2500">
-            Full stack
-          </h2> */}
-
           <h2
             className="about--w"
             data-aos="flip-down"
             data-aos-duration="2500"
           >
-            Web developer 👨🏻‍💻
+            Web Developer 👨🏻‍💻
           </h2>
         </div>
 
@@ -59,7 +55,7 @@ const About = ({ mode }) => {
           }
           src={p}
           alt="prashanth"
-          data-aos="zoom-in-right"
+          data-aos="zoom-in"
           data-aos-duration="1500"
         />
       </div>

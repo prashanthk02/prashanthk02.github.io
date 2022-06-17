@@ -69,23 +69,9 @@
 }
 
 .about--i {
-  padding: 5px;
-  position: relative;
-  left: 25%;
+  padding: 10px;
   opacity: 80%;
 }
-
-/* .about--f {
-  padding: 10px;
-  margin: 5px;
-  position: relative;
-  left: 10%;
-  text-align: center;
-  color: yellowgreen;
-  background-color: black;
-  border: 0.1px solid yellowgreen;
-  box-shadow: 4px 3px lightgray;
-} */
 
 .about--w {
   padding: 10px;
