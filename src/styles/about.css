@@ -39,7 +39,7 @@
   position: relative;
   right: 10%;
   text-align: right;
-  background-color: goldenrod;
+  background-color: yellowgreen;
   color: black;
   letter-spacing: 5px;
   border: 0.1px solid black;
@@ -52,7 +52,7 @@
   position: relative;
   left: 10%;
   text-align: right;
-  background-color: goldenrod;
+  background-color: yellowgreen;
   color: black;
   letter-spacing: 5px;
   border: 0.1px solid black;
@@ -72,9 +72,9 @@
   position: relative;
   left: 10%;
   text-align: center;
-  color: goldenrod;
+  color: yellowgreen;
   background-color: black;
-  border: 0.1px solid goldenrod;
+  border: 0.1px solid yellowgreen;
   box-shadow: 4px 3px lightgray;
 }
 
@@ -84,9 +84,9 @@
   position: relative;
   right: 5%;
   text-align: center;
-  color: goldenrod;
+  color: yellowgreen;
   background-color: black;
-  border: 0.1px solid goldenrod;
+  border: 0.1px solid yellowgreen;
   box-shadow: 3px 2px lightgray;
 }
 
