@@ -30,7 +30,7 @@ function App() {
         </button>
         <Navbar />
       </nav>
-      <About mode={mode} />
+      <About />
       <Skills />
       <Projects />
       <Experience />

@@ -8,7 +8,7 @@
   margin-top: 74px;
   margin-bottom: 25px;
   border: 1px solid black;
-  border-radius: 4px;
+  border-radius: 1px;
   background-color: yellowgreen;
   color: black;
   width: 350px;
@@ -24,18 +24,11 @@
   line-height: 1.6;
 }
 
-.about--img--dark {
+.about--img {
   width: 300px;
   height: 300px;
-  border-radius: 10px;
-  box-shadow: 2px 2px 4px 4px white;
-}
-
-.about--img--light {
-  width: 300px;
-  height: 300px;
-  border-radius: 10px;
-  box-shadow: 2px 2px 4px 4px gray;
+  border-radius: 1px;
+  box-shadow: 5px 4px lightgray;
 }
 
 .about--intro {
@@ -106,12 +99,7 @@
     gap: 20px;
   }
 
-  .about--img--dark {
-    width: 200px;
-    height: 200px;
-  }
-
-  .about--img--light {
+  .about--img {
     width: 200px;
     height: 200px;
   }

@@ -4,7 +4,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 
-const About = ({ mode }) => {
+const About = () => {
   useEffect(() => {
     AOS.init();
     AOS.refresh();
@@ -50,9 +50,7 @@ const About = ({ mode }) => {
         </div>
 
         <img
-          className={
-            mode === "light" ? "about--img--light" : "about--img--dark"
-          }
+          className="about--img"
           src={p}
           alt="prashanth"
           data-aos="zoom-in"
