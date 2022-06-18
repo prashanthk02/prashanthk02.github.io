@@ -10,10 +10,12 @@
   border: 1px solid black;
   border-radius: 4px;
   background-color: yellowgreen;
+  color: black;
   width: 350px;
   text-align: center;
   position: sticky;
   top: 75px;
+  z-index: 3;
   left: 4%;
 }
 
