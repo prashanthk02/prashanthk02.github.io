@@ -58,12 +58,12 @@ const About = () => {
         />
       </div>
 
-      <h2>About me</h2>
+      <h2>About Me</h2>
 
       <div className="about--desc">
         <p>
           I always had a passion to create web sites and web applications, so I
-          took a step forward and decided to learn coding. I joined Lighthouse
+          took a leap and decided to learn coding. I joined Lighthouse
           labs to pursue web development and transform my passion into a career,
           and successfully graduated as a Full stack web developer. In the
           journey I met some amazing instructors and wonderful fellow classmates
