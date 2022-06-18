@@ -9,13 +9,20 @@
   margin-bottom: 25px;
   border: 1px solid black;
   border-radius: 4px;
-  background-color: rgba(153, 205, 50, 0.8);
+  background-color: yellowgreen;
   width: 350px;
   text-align: center;
-  position: relative;
+  position: sticky;
+  top: 75px;
   left: 4%;
 }
 
 .year {
   opacity: 30%;
+}
+
+@media only screen and (max-width: 600px) {
+  .experience > h2 {
+    top: 0;
+  }
 }

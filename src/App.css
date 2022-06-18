@@ -54,11 +54,13 @@
     background-image: none;
   }
   .navbar--dark {
+    position: relative;
     height: 50px;
     background-color: #021122;
   }
 
   .navbar--light {
+    position: relative;
     height: 50px;
   }
 
