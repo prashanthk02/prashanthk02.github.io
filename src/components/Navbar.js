@@ -11,7 +11,7 @@ const Navbar = () => {
 
   const toggle = () => {
     setShow(!show);
-  }
+  };
 
   return (
     <div className="navbar">
@@ -41,29 +41,57 @@ const Navbar = () => {
 
       <div className="navbar--hammenu">
         <div className="navbar--hammenu--icon">
-          {show ? <RiCloseFill onClick={() => toggle()} /> : <HiMenuAlt4 onClick={() => toggle()} />}
+          {show ? (
+            <RiCloseFill onClick={() => toggle()} />
+          ) : (
+            <HiMenuAlt4 onClick={() => toggle()} />
+          )}
         </div>
-        {show &&
+        {show && (
           <div className="navbar--hammenu--options">
-            <Link to="about" smooth={true} duration={500} onClick={() => toggle()}>
+            <Link
+              to="about"
+              smooth={true}
+              duration={500}
+              onClick={() => toggle()}
+            >
               About
             </Link>
-            <Link to="skills" smooth={true} duration={500} onClick={() => toggle()}>
+            <Link
+              to="skills"
+              smooth={true}
+              duration={500}
+              onClick={() => toggle()}
+            >
               Skills
             </Link>
-            <Link to="projects" smooth={true} duration={500} onClick={() => toggle()}>
+            <Link
+              to="projects"
+              smooth={true}
+              duration={500}
+              onClick={() => toggle()}
+            >
               Projects
             </Link>
-            <Link to="experience" smooth={true} duration={500} onClick={() => toggle()}>
+            <Link
+              to="experience"
+              smooth={true}
+              duration={500}
+              onClick={() => toggle()}
+            >
               Experience
             </Link>
-            <Link to="contact" smooth={true} duration={500} onClick={() => toggle()}>
+            <Link
+              to="contact"
+              smooth={true}
+              duration={500}
+              onClick={() => toggle()}
+            >
               Contact
             </Link>
           </div>
-        }
+        )}
       </div>
-
     </div>
   );
 };
