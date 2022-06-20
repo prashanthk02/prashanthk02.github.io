@@ -38,7 +38,7 @@
 
 @media only screen and (max-width: 600px) {
   .skills > h2 {
-    top: 0;
+    top: 50px;
   }
 
   .skills--icons {

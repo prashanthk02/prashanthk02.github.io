@@ -22,19 +22,19 @@ const Navbar = () => {
         onClick={animateScroll.scrollToTop}
       />
       <div className="navbar--links">
-        <Link to="about" smooth={true} duration={500}>
+        <Link to="about" smooth={true} duration={750}>
           About
         </Link>
-        <Link to="skills" smooth={true} duration={500}>
+        <Link to="skills" smooth={true} duration={750}>
           Skills
         </Link>
-        <Link to="projects" smooth={true} duration={500}>
+        <Link to="projects" smooth={true} duration={750}>
           Projects
         </Link>
-        <Link to="experience" smooth={true} duration={500}>
+        <Link to="experience" smooth={true} duration={750}>
           Experience
         </Link>
-        <Link to="contact" smooth={true} duration={500}>
+        <Link to="contact" smooth={true} duration={750}>
           Contact
         </Link>
       </div>
@@ -52,7 +52,7 @@ const Navbar = () => {
             <Link
               to="about"
               smooth={true}
-              duration={500}
+              duration={1500}
               onClick={() => toggle()}
             >
               About
@@ -60,7 +60,7 @@ const Navbar = () => {
             <Link
               to="skills"
               smooth={true}
-              duration={500}
+              duration={1500}
               onClick={() => toggle()}
             >
               Skills
@@ -68,7 +68,7 @@ const Navbar = () => {
             <Link
               to="projects"
               smooth={true}
-              duration={500}
+              duration={1500}
               onClick={() => toggle()}
             >
               Projects
@@ -76,7 +76,7 @@ const Navbar = () => {
             <Link
               to="experience"
               smooth={true}
-              duration={500}
+              duration={1500}
               onClick={() => toggle()}
             >
               Experience
@@ -84,7 +84,7 @@ const Navbar = () => {
             <Link
               to="contact"
               smooth={true}
-              duration={500}
+              duration={1500}
               onClick={() => toggle()}
             >
               Contact
