@@ -15,13 +15,41 @@
   margin-left: 30px;
   gap: 20px;
 }
+.navbar--hammenu {
+  display: none;
+}
 
 @media only screen and (max-width: 600px) {
   .navbar--avatar {
-    width: 40px;
+    display: none;
   }
 
   .navbar--links {
     display: none;
+  }
+
+  .navbar--hammenu {
+    display: block;
+  }
+
+  .navbar--hammenu--icon{
+    font-size: 30px;
+  }
+
+  .navbar--hammenu--options {
+    border: 1px solid red;
+    padding: 20px 10px;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    background-color: #021122;
+    position: absolute;
+    text-align: center;
+    z-index: 99;
+    left: 0;
+    top: 6%;
+    font-size: 20px;
   }
 }
