@@ -40,12 +40,8 @@ const Navbar = () => {
       </div>
 
       <div className="navbar--hammenu">
-        <div className="navbar--hammenu--icon">
-          {show ? (
-            <IoClose onClick={() => toggle()} />
-          ) : (
-            <HiMenuAlt4 onClick={() => toggle()} />
-          )}
+        <div className="navbar--hammenu--icon" onClick={() => toggle()}>
+          {show ? <IoClose /> : <HiMenuAlt4 />}
         </div>
         {show && (
           <div className="navbar--hammenu--options">
