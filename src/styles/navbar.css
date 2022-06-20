@@ -33,7 +33,7 @@
   }
 
   .navbar--hammenu--icon {
-    font-size: 30px;
+    font-size: 35px;
   }
 
   .navbar--hammenu--options {
@@ -51,5 +51,6 @@
     left: 0;
     top: 100%;
     font-size: 20px;
+    border-bottom: 0.1pt solid gray;
   }
 }

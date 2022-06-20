@@ -3,7 +3,7 @@ import { animateScroll } from "react-scroll/modules";
 import p from "../docs/p.jpg";
 import "../styles/navbar.css";
 import { HiMenuAlt4 } from "react-icons/hi";
-import { RiCloseFill } from "react-icons/ri";
+import { IoClose } from "react-icons/io5";
 import { useState } from "react";
 
 const Navbar = () => {
@@ -42,7 +42,7 @@ const Navbar = () => {
       <div className="navbar--hammenu">
         <div className="navbar--hammenu--icon">
           {show ? (
-            <RiCloseFill onClick={() => toggle()} />
+            <IoClose onClick={() => toggle()} />
           ) : (
             <HiMenuAlt4 onClick={() => toggle()} />
           )}
