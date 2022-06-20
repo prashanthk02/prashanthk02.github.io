@@ -43,6 +43,12 @@
   color: black;
 }
 
+.copyright {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
 @media only screen and (max-width:600px) {
   .contact--details {
     padding: 10px;

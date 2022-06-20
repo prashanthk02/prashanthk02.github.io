@@ -2,6 +2,7 @@ import "../styles/contact.css";
 import { FiMail } from "react-icons/fi";
 import { FaLinkedin } from "react-icons/fa";
 import { Link } from "@mui/material";
+import { RiCopyrightLine } from "react-icons/ri"
 
 const Contact = ({ mode }) => {
   return (
@@ -34,6 +35,8 @@ const Contact = ({ mode }) => {
           </p>
         </Link>
       </div>
+      <br />
+      <p className="copyright">Created by: Prashanth Kommidi, 2022 <RiCopyrightLine /></p>
     </div>
   );
 };
