@@ -214,6 +214,45 @@ const Projects = () => {
           </span>
         </div>
 
+        <div className="projects--card">
+          <div className="projects--title">
+            <h2>Jungle</h2>
+            <Link
+              href="https://github.com/prashanthk02/jungle-rails"
+              target="_blank"
+              rel="noopener"
+            >
+              <FaGithub className="svg" />
+            </Link>
+          </div>
+
+          <div className="projects--demo">
+            <img
+              src="https://github.com/prashanthk02/jungle-rails/blob/master/docs/home.png?raw=true"
+              alt="jungle"
+            />
+          </div>
+
+
+          <p>
+            A mini e-commerce application built with Rails 6.1 for
+            purposes of learning Ruby. Using existing code base,
+            implemented new features and styles.
+          </p>
+
+          <span>
+            <h3>Tech stack:</h3>
+            <ul>
+              <li>Rails</li>
+              <li>Bootstrap</li>
+              <li>PostgreSQL</li>
+              <li>Stripe</li>
+              <li>Rspec</li>
+              <li>Cypress</li>
+            </ul>
+          </span>
+        </div>
+
       </div>
     </div>
   );
