@@ -178,6 +178,42 @@ const Projects = () => {
           </span>
         </div>
 
+        <div className="projects--card">
+          <div className="projects--title">
+            <h2>Tweeter</h2>
+            <Link
+              href="https://github.com/prashanthk02/tweeter"
+              target="_blank"
+              rel="noopener"
+            >
+              <FaGithub className="svg" />
+            </Link>
+          </div>
+
+          <div className="projects--demo">
+            <img
+              src="https://github.com/prashanthk02/tweeter/blob/master/docs/desktop.png?raw=true"
+              alt="tweeter"
+            />
+          </div>
+
+
+          <p>
+            Tweeter is a simple single-page Twitter clone
+            built using jQuery, HTML5 and CSS3.
+            It was buit to learn jQuery and responsive web design.
+          </p>
+
+          <span>
+            <h3>Tech stack:</h3>
+            <ul>
+              <li>NodeJs</li>
+              <li>Express</li>
+              <li>jQuery</li>
+            </ul>
+          </span>
+        </div>
+
       </div>
     </div>
   );
