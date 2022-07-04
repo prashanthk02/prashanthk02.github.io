@@ -139,6 +139,45 @@ const Projects = () => {
             </ul>
           </span>
         </div>
+
+        <div className="projects--card">
+          <div className="projects--title">
+            <h2>Tiny App</h2>
+            <Link
+              href="https://github.com/prashanthk02/tinyapp"
+              target="_blank"
+              rel="noopener"
+            >
+              <FaGithub className="svg" />
+            </Link>
+          </div>
+
+          <div className="projects--demo">
+            <img
+              src="https://github.com/prashanthk02/tinyapp/blob/main/docs/MyUrls.png?raw=true"
+              alt="tinyapp"
+            />
+          </div>
+
+
+          <p>
+            TinyApp is a full stack web application built with
+            Node and Express that allows users to shorten
+            long URLs similar to bitly.com.
+          </p>
+
+          <span>
+            <h3>Tech stack:</h3>
+            <ul>
+              <li>NodeJs</li>
+              <li>Express</li>
+              <li>EJS</li>
+              <li>BcryptJs</li>
+              <li>Cookie-session</li>
+            </ul>
+          </span>
+        </div>
+
       </div>
     </div>
   );
