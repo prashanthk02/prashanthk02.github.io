@@ -22,7 +22,6 @@ const Projects = () => {
             </Link>
           </div>
 
-
           <div className="projects--demo">
             <video
               playsInline
@@ -120,7 +119,6 @@ const Projects = () => {
             />
           </div>
 
-
           <p>
             Scheduler is a single page application that allows students to book
             interview appointments with mentors, also allows to modify
@@ -159,11 +157,9 @@ const Projects = () => {
             />
           </div>
 
-
           <p>
-            TinyApp is a full stack web application built with
-            Node and Express that allows users to shorten
-            long URLs similar to bitly.com.
+            TinyApp is a full stack web application built with Node and Express
+            that allows users to shorten long URLs similar to bitly.com.
           </p>
 
           <span>
@@ -197,11 +193,10 @@ const Projects = () => {
             />
           </div>
 
-
           <p>
-            Tweeter is a simple single-page Twitter clone
-            built using jQuery, HTML5 and CSS3.
-            It was buit to learn jQuery and responsive web design.
+            Tweeter is a simple single-page Twitter clone built using jQuery,
+            HTML5 and CSS3. It was buit to learn jQuery and responsive web
+            design.
           </p>
 
           <span>
@@ -233,11 +228,10 @@ const Projects = () => {
             />
           </div>
 
-
           <p>
-            A mini e-commerce application built with Rails 6.1 for
-            purposes of learning Ruby. Using existing code base,
-            implemented new features and styles.
+            A mini e-commerce application built with Rails 6.1 for purposes of
+            learning Ruby. Using existing code base, implemented new features
+            and styles.
           </p>
 
           <span>
@@ -252,7 +246,6 @@ const Projects = () => {
             </ul>
           </span>
         </div>
-
       </div>
     </div>
   );
