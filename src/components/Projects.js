@@ -1,10 +1,13 @@
 import { Link } from "@mui/material";
+import { useState } from "react";
 import { FaGithub } from "react-icons/fa";
 import food from "../docs/food.mp4";
 import what from "../docs/whatssup.mp4";
 import "../styles/projects.css";
 
 const Projects = () => {
+  const [show, setShow] = useState(false);
+
   return (
     <div className="projects">
       <h2>My Projects</h2>
@@ -138,114 +141,132 @@ const Projects = () => {
           </span>
         </div>
 
-        <div className="projects--card">
-          <div className="projects--title">
-            <h2>Tiny App</h2>
-            <Link
-              href="https://github.com/prashanthk02/tinyapp"
-              target="_blank"
-              rel="noopener"
+        {!show && (
+          <button className="projects--more--btn" onClick={() => setShow(true)}>
+            [Show More +]
+          </button>
+        )}
+
+        {show && (
+          <>
+            <div className="projects--card">
+              <div className="projects--title">
+                <h2>Tiny App</h2>
+                <Link
+                  href="https://github.com/prashanthk02/tinyapp"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <FaGithub className="svg" />
+                </Link>
+              </div>
+
+              <div className="projects--demo">
+                <img
+                  src="https://github.com/prashanthk02/tinyapp/blob/main/docs/MyUrls.png?raw=true"
+                  alt="tinyapp"
+                />
+              </div>
+
+              <p>
+                TinyApp is a full stack web application built with Node and
+                Express that allows users to shorten long URLs similar to
+                bitly.com.
+              </p>
+
+              <span>
+                <h3>Tech stack:</h3>
+                <ul>
+                  <li>NodeJs</li>
+                  <li>Express</li>
+                  <li>EJS</li>
+                  <li>BcryptJs</li>
+                  <li>Cookie-session</li>
+                </ul>
+              </span>
+            </div>
+
+            <div className="projects--card">
+              <div className="projects--title">
+                <h2>Tweeter</h2>
+                <Link
+                  href="https://github.com/prashanthk02/tweeter"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <FaGithub className="svg" />
+                </Link>
+              </div>
+
+              <div className="projects--demo">
+                <img
+                  src="https://github.com/prashanthk02/tweeter/blob/master/docs/desktop.png?raw=true"
+                  alt="tweeter"
+                />
+              </div>
+
+              <p>
+                Tweeter is a simple single-page Twitter clone built using
+                jQuery, HTML5 and CSS3. It was buit to learn jQuery and
+                responsive web design.
+              </p>
+
+              <span>
+                <h3>Tech stack:</h3>
+                <ul>
+                  <li>NodeJs</li>
+                  <li>Express</li>
+                  <li>jQuery</li>
+                </ul>
+              </span>
+            </div>
+
+            <div className="projects--card">
+              <div className="projects--title">
+                <h2>Jungle</h2>
+                <Link
+                  href="https://github.com/prashanthk02/jungle-rails"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <FaGithub className="svg" />
+                </Link>
+              </div>
+
+              <div className="projects--demo">
+                <img
+                  src="https://github.com/prashanthk02/jungle-rails/blob/master/docs/home.png?raw=true"
+                  alt="jungle"
+                />
+              </div>
+
+              <p>
+                A mini e-commerce application built with Rails 6.1 for purposes
+                of learning Ruby. Using existing code base, implemented new
+                features and styles.
+              </p>
+
+              <span>
+                <h3>Tech stack:</h3>
+                <ul>
+                  <li>Rails</li>
+                  <li>Bootstrap</li>
+                  <li>PostgreSQL</li>
+                  <li>Stripe</li>
+                  <li>Rspec</li>
+                  <li>Cypress</li>
+                </ul>
+              </span>
+            </div>
+
+            <button
+              className="projects--more--btn"
+              onClick={() => setShow(false)}
             >
-              <FaGithub className="svg" />
-            </Link>
-          </div>
-
-          <div className="projects--demo">
-            <img
-              src="https://github.com/prashanthk02/tinyapp/blob/main/docs/MyUrls.png?raw=true"
-              alt="tinyapp"
-            />
-          </div>
-
-          <p>
-            TinyApp is a full stack web application built with Node and Express
-            that allows users to shorten long URLs similar to bitly.com.
-          </p>
-
-          <span>
-            <h3>Tech stack:</h3>
-            <ul>
-              <li>NodeJs</li>
-              <li>Express</li>
-              <li>EJS</li>
-              <li>BcryptJs</li>
-              <li>Cookie-session</li>
-            </ul>
-          </span>
-        </div>
-
-        <div className="projects--card">
-          <div className="projects--title">
-            <h2>Tweeter</h2>
-            <Link
-              href="https://github.com/prashanthk02/tweeter"
-              target="_blank"
-              rel="noopener"
-            >
-              <FaGithub className="svg" />
-            </Link>
-          </div>
-
-          <div className="projects--demo">
-            <img
-              src="https://github.com/prashanthk02/tweeter/blob/master/docs/desktop.png?raw=true"
-              alt="tweeter"
-            />
-          </div>
-
-          <p>
-            Tweeter is a simple single-page Twitter clone built using jQuery,
-            HTML5 and CSS3. It was buit to learn jQuery and responsive web
-            design.
-          </p>
-
-          <span>
-            <h3>Tech stack:</h3>
-            <ul>
-              <li>NodeJs</li>
-              <li>Express</li>
-              <li>jQuery</li>
-            </ul>
-          </span>
-        </div>
-
-        <div className="projects--card">
-          <div className="projects--title">
-            <h2>Jungle</h2>
-            <Link
-              href="https://github.com/prashanthk02/jungle-rails"
-              target="_blank"
-              rel="noopener"
-            >
-              <FaGithub className="svg" />
-            </Link>
-          </div>
-
-          <div className="projects--demo">
-            <img
-              src="https://github.com/prashanthk02/jungle-rails/blob/master/docs/home.png?raw=true"
-              alt="jungle"
-            />
-          </div>
-
-          <p>
-            A mini e-commerce application built with Rails 6.1 for purposes of
-            learning Ruby. Using existing code base, implemented new features
-            and styles.
-          </p>
-
-          <span>
-            <h3>Tech stack:</h3>
-            <ul>
-              <li>Rails</li>
-              <li>Bootstrap</li>
-              <li>PostgreSQL</li>
-              <li>Stripe</li>
-              <li>Rspec</li>
-              <li>Cypress</li>
-            </ul>
-          </span>
-        </div>
+              [Show Less -]
+            </button>
+          </>
+        )}
       </div>
     </div>
   );
