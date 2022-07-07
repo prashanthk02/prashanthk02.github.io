@@ -1,6 +1,6 @@
 import Link from "react-scroll/modules/components/Link";
 import { animateScroll } from "react-scroll/modules";
-import p from "../docs/letter-p.png";
+import p from "../docs/p.jpg";
 import "../styles/navbar.css";
 import { HiMenuAlt4 } from "react-icons/hi";
 import { IoClose } from "react-icons/io5";
