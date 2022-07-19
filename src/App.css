@@ -67,4 +67,8 @@
   .mode {
     left: 85%;
   }
+
+  .light {
+    background-image: none;
+  }
 }
