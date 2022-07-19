@@ -44,8 +44,10 @@
 }
 
 .light {
-  background-image: none;
+  background-image: url('../public/wave1.svg');
   background-color: white;
+  background-repeat: no-repeat;
+  background-position: bottom;
   color: black;
 }
 
