@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.34825d81.css",
+    "main.css": "/static/css/main.dc45c461.css",
     "main.js": "/static/js/main.1edcbf23.js",
     "static/media/food.mp4": "/static/media/food.8be796d1ab00ef8d89b5.mp4",
     "static/media/whatssup.mp4": "/static/media/whatssup.17a909464a62b07845cd.mp4",
@@ -8,11 +8,11 @@
     "static/media/2k_stars_milky_way.jpeg": "/static/media/2k_stars_milky_way.9704bf4476a8273d149a.jpeg",
     "index.html": "/index.html",
     "static/media/wave1.svg": "/static/media/wave1.bbe7142fe1131a8fc7de.svg",
-    "main.34825d81.css.map": "/static/css/main.34825d81.css.map",
+    "main.dc45c461.css.map": "/static/css/main.dc45c461.css.map",
     "main.1edcbf23.js.map": "/static/js/main.1edcbf23.js.map"
   },
   "entrypoints": [
-    "static/css/main.34825d81.css",
+    "static/css/main.dc45c461.css",
     "static/js/main.1edcbf23.js"
   ]
 }
