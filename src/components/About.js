@@ -1,5 +1,5 @@
 import "../styles/about.css";
-import p from "../docs/p.jpg";
+import p from "../docs/p.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
