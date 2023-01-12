@@ -32,7 +32,7 @@ const Experience = () => {
           </TimelineContent>
         </TimelineItem>
 
-        <TimelineItem>
+        {/* <TimelineItem>
           <TimelineSeparator>
             <TimelineDot />
             <TimelineConnector />
@@ -41,7 +41,7 @@ const Experience = () => {
             <div>Inventory Co-ordinator</div>
             <div className="year">2021 - 2022</div>
           </TimelineContent>
-        </TimelineItem>
+        </TimelineItem> */}
 
         <TimelineItem>
           <TimelineSeparator>
@@ -50,7 +50,7 @@ const Experience = () => {
           </TimelineSeparator>
           <TimelineContent data-aos="zoom-in-right" data-aos-duration="1500">
             <div>Receiving supervisor</div>
-            <div className="year">2019 - 2021</div>
+            <div className="year">2019 - Present</div>
           </TimelineContent>
         </TimelineItem>
 
