@@ -28,21 +28,8 @@ const Experience = () => {
           </TimelineSeparator>
           <TimelineContent data-aos="zoom-in-right" data-aos-duration="1500">
             <div>Diploma in Web Development</div>
-            <div className="year">2022 - 2022</div>
           </TimelineContent>
         </TimelineItem>
-
-        {/* <TimelineItem>
-          <TimelineSeparator>
-            <TimelineDot />
-            <TimelineConnector />
-          </TimelineSeparator>
-          <TimelineContent data-aos="zoom-in-left" data-aos-duration="1500">
-            <div>Inventory Co-ordinator</div>
-            <div className="year">2021 - 2022</div>
-          </TimelineContent>
-        </TimelineItem> */}
-
         <TimelineItem>
           <TimelineSeparator>
             <TimelineDot />
@@ -61,7 +48,6 @@ const Experience = () => {
           </TimelineSeparator>
           <TimelineContent data-aos="zoom-in-left" data-aos-duration="1500">
             <div>Postgraduate Diploma in Supplychain Management</div>
-            <div className="year">2017 - 2018</div>
           </TimelineContent>
         </TimelineItem>
 
@@ -71,7 +57,6 @@ const Experience = () => {
           </TimelineSeparator>
           <TimelineContent data-aos="zoom-in-right" data-aos-duration="1500">
             <div>Bachelor Degree in Commerce</div>
-            <div className="year">2013 - 2016</div>
           </TimelineContent>
         </TimelineItem>
       </Timeline>
