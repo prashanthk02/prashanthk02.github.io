@@ -39,7 +39,7 @@ const Skills = () => {
       <div className="skills--icons">
         <div
           className="skills--each--icon"
-          data-aos="zoom-in-right"
+          data-aos="zoom-in-up"
           data-aos-duration="500"
         >
           <SiJavascript className="skills--svg" />
@@ -48,7 +48,7 @@ const Skills = () => {
 
         <div
           className="skills--each--icon"
-          data-aos="zoom-in-down"
+          data-aos="zoom-in-up"
           data-aos-duration="1000"
         >
           <FaHtml5 className="skills--svg" />
@@ -57,7 +57,7 @@ const Skills = () => {
 
         <div
           className="skills--each--icon"
-          data-aos="zoom-in"
+          data-aos="zoom-in-up"
           data-aos-duration="1500"
         >
           <FaCss3Alt className="skills--svg" />
@@ -75,7 +75,7 @@ const Skills = () => {
 
         <div
           className="skills--each--icon"
-          data-aos="zoom-in-left"
+          data-aos="zoom-in-up"
           data-aos-duration="2500"
         >
           <FaNodeJs className="skills--svg" />
@@ -84,8 +84,8 @@ const Skills = () => {
 
         <div
           className="skills--each--icon"
-          data-aos="zoom-in-left"
-          data-aos-duration="3000"
+          data-aos="zoom-in-up"
+          data-aos-duration="500"
         >
           <FaReact className="skills--svg" />
           <p>React</p>
@@ -94,7 +94,7 @@ const Skills = () => {
         <div
           className="skills--each--icon"
           data-aos="zoom-in-up"
-          data-aos-duration="2500"
+          data-aos-duration="1000"
         >
           <SiExpress className="skills--svg" />
           <p>Express</p>
@@ -102,8 +102,8 @@ const Skills = () => {
 
         <div
           className="skills--each--icon"
-          data-aos="zoom-in"
-          data-aos-duration="2000"
+          data-aos="zoom-in-up"
+          data-aos-duration="1500"
         >
           <SiJquery className="skills--svg" />
           <p>jQuery</p>
@@ -111,8 +111,8 @@ const Skills = () => {
 
         <div
           className="skills--each--icon"
-          data-aos="zoom-in-down"
-          data-aos-duration="1500"
+          data-aos="zoom-in-up"
+          data-aos-duration="2000"
         >
           <FaBootstrap className="skills--svg" />
           <p>BootStrap</p>
@@ -120,8 +120,8 @@ const Skills = () => {
 
         <div
           className="skills--each--icon"
-          data-aos="zoom-in-right"
-          data-aos-duration="1000"
+          data-aos="zoom-in-up"
+          data-aos-duration="2500"
         >
           <SiMaterialui className="skills--svg" />
           <p>MaterialUI</p>
@@ -129,7 +129,7 @@ const Skills = () => {
 
         <div
           className="skills--each--icon"
-          data-aos="zoom-in-left"
+          data-aos="zoom-in-up"
           data-aos-duration="500"
         >
           <SiRubyonrails className="skills--svg" />
@@ -147,7 +147,7 @@ const Skills = () => {
 
         <div
           className="skills--each--icon"
-          data-aos="zoom-in"
+          data-aos="zoom-in-up"
           data-aos-duration="1500"
         >
           <SiPostgresql className="skills--svg" />
@@ -156,7 +156,7 @@ const Skills = () => {
 
         <div
           className="skills--each--icon"
-          data-aos="zoom-in-down"
+          data-aos="zoom-in-up"
           data-aos-duration="2000"
         >
           <SiMysql className="skills--svg" />
@@ -165,7 +165,7 @@ const Skills = () => {
 
         <div
           className="skills--each--icon"
-          data-aos="zoom-in-right"
+          data-aos="zoom-in-up"
           data-aos-duration="2500"
         >
           <FaGithub className="skills--svg" />
@@ -174,8 +174,8 @@ const Skills = () => {
 
         <div
           className="skills--each--icon"
-          data-aos="zoom-in-down"
-          data-aos-duration="3000"
+          data-aos="zoom-in-up"
+          data-aos-duration="500"
         >
           <SiMocha className="skills--svg" />
           <p>Mocha</p>
@@ -184,7 +184,7 @@ const Skills = () => {
         <div
           className="skills--each--icon"
           data-aos="zoom-in-up"
-          data-aos-duration="2500"
+          data-aos-duration="1000"
         >
           <SiChai className="skills--svg" />
           <p>Chai</p>
@@ -192,8 +192,8 @@ const Skills = () => {
 
         <div
           className="skills--each--icon"
-          data-aos="zoom-in"
-          data-aos-duration="2000"
+          data-aos="zoom-in-up"
+          data-aos-duration="1500"
         >
           <SiCypress className="skills--svg" />
           <p>Cypress</p>
@@ -201,8 +201,8 @@ const Skills = () => {
 
         <div
           className="skills--each--icon"
-          data-aos="zoom-in-down"
-          data-aos-duration="1500"
+          data-aos="zoom-in-up"
+          data-aos-duration="2000"
         >
           <SiJest className="skills--svg" />
           <p>Jest</p>
@@ -210,8 +210,8 @@ const Skills = () => {
 
         <div
           className="skills--each--icon"
-          data-aos="zoom-in-right"
-          data-aos-duration="1000"
+          data-aos="zoom-in-up"
+          data-aos-duration="2500"
         >
           <SiStorybook className="skills--svg" />
           <p>Storybook</p>
