@@ -36,7 +36,7 @@ const Experience = () => {
             <TimelineConnector />
           </TimelineSeparator>
           <TimelineContent data-aos="zoom-in-right" data-aos-duration="1500">
-            <div>Receiving supervisor</div>
+            <div>Warehouse supervisor</div>
             <div className="year">2019 - Present</div>
           </TimelineContent>
         </TimelineItem>
